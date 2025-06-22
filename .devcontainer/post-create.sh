@@ -8,7 +8,7 @@ git clone https://github.com/novnc/noVNC.git /home/vscode/noVNC
 
 # --- 2. Create the main runner script for the user ---
 echo ">>> Creating the 'start-windows.sh' script..."
-cat <<'EOF' > /workspaces/$CODESPACE_NAME/start-windows.sh
+cat <<'EOF' > ./start-windows.sh
 #!/bin/bash
 
 # --- CONFIGURATION ---
