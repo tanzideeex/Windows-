@@ -1,0 +1,14 @@
+{
+    "name": "Windows 11 VM Environment",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [6080],
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": ["ms-vscode-remote.remote-containers"]
+        }
+    },
+    "postCreateCommand": "bash ./.devcontainer/post-create.sh"
+}
